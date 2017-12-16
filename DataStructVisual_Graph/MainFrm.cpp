@@ -50,6 +50,7 @@ static UINT indicators[] =
 // CMainFrame 构造/析构
 
 CMainFrame::CMainFrame()
+	: m_FunType(0)
 {
 	// TODO: 在此添加成员初始化代码
 }

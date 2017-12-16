@@ -59,6 +59,7 @@ public:
 	afx_msg void OnUpdateGraphEdgeSetweight(CCmdUI *pCmdUI);
 	afx_msg void OnGraphEdgeInfo();
 	afx_msg void OnUpdateGraphEdgeInfo(CCmdUI *pCmdUI);
+	int m_FunType;
 };
 
 

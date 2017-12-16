@@ -188,6 +188,8 @@
     <ClInclude Include="DataStructVisual_Graph.h" />
     <ClInclude Include="DataStructVisual_GraphDoc.h" />
     <ClInclude Include="DataStructVisual_GraphView.h" />
+    <ClInclude Include="GraphEdgeNode.h" />
+    <ClInclude Include="GraphVertexNode.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -197,6 +199,8 @@
     <ClCompile Include="DataStructVisual_Graph.cpp" />
     <ClCompile Include="DataStructVisual_GraphDoc.cpp" />
     <ClCompile Include="DataStructVisual_GraphView.cpp" />
+    <ClCompile Include="GraphEdgeNode.cpp" />
+    <ClCompile Include="GraphVertexNode.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
