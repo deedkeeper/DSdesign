@@ -45,6 +45,9 @@
     <ClInclude Include="GraphEdgeNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="UDGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStructVisual_Graph.cpp">
@@ -66,6 +69,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="GraphEdgeNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UDGraph.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
