@@ -17,6 +17,26 @@ IMPLEMENT_DYNCREATE(CMainFrame, CFrameWnd)
 
 BEGIN_MESSAGE_MAP(CMainFrame, CFrameWnd)
 	ON_WM_CREATE()
+	ON_COMMAND(ID_GRAPH_OPEN, &CMainFrame::OnGraphOpen)
+	ON_UPDATE_COMMAND_UI(ID_GRAPH_OPEN, &CMainFrame::OnUpdateGraphOpen)
+	ON_COMMAND(ID_GRAPH_SAVE, &CMainFrame::OnGraphSave)
+	ON_UPDATE_COMMAND_UI(ID_GRAPH_SAVE, &CMainFrame::OnUpdateGraphSave)
+	ON_COMMAND(ID_GRAPH_CLEAR, &CMainFrame::OnGraphClear)
+	ON_UPDATE_COMMAND_UI(ID_GRAPH_CLEAR, &CMainFrame::OnUpdateGraphClear)
+	ON_COMMAND(ID_GRAPH_VERTEX_ADD, &CMainFrame::OnGraphVertexAdd)
+	ON_UPDATE_COMMAND_UI(ID_GRAPH_VERTEX_ADD, &CMainFrame::OnUpdateGraphVertexAdd)
+	ON_COMMAND(ID_GRAPH_VERTEX_DELETE, &CMainFrame::OnGraphVertexDelete)
+	ON_UPDATE_COMMAND_UI(ID_GRAPH_VERTEX_DELETE, &CMainFrame::OnUpdateGraphVertexDelete)
+	ON_COMMAND(ID_GRAPH_VERTEX_INFO, &CMainFrame::OnGraphVertexInfo)
+	ON_UPDATE_COMMAND_UI(ID_GRAPH_VERTEX_INFO, &CMainFrame::OnUpdateGraphVertexInfo)
+	ON_COMMAND(ID_GRAPH_EDGE_ADD, &CMainFrame::OnGraphEdgeAdd)
+	ON_UPDATE_COMMAND_UI(ID_GRAPH_EDGE_ADD, &CMainFrame::OnUpdateGraphEdgeAdd)
+	ON_COMMAND(ID_GRAPH_EDGE_DELETE, &CMainFrame::OnGraphEdgeDelete)
+	ON_UPDATE_COMMAND_UI(ID_GRAPH_EDGE_DELETE, &CMainFrame::OnUpdateGraphEdgeDelete)
+	ON_COMMAND(ID_GRAPH_EDGE_SETWEIGHT, &CMainFrame::OnGraphEdgeSetweight)
+	ON_UPDATE_COMMAND_UI(ID_GRAPH_EDGE_SETWEIGHT, &CMainFrame::OnUpdateGraphEdgeSetweight)
+	ON_COMMAND(ID_GRAPH_EDGE_INFO, &CMainFrame::OnGraphEdgeInfo)
+	ON_UPDATE_COMMAND_UI(ID_GRAPH_EDGE_INFO, &CMainFrame::OnUpdateGraphEdgeInfo)
 END_MESSAGE_MAP()
 
 static UINT indicators[] =
@@ -93,3 +113,123 @@ void CMainFrame::Dump(CDumpContext& dc) const
 
 // CMainFrame 消息处理程序
 
+
+
+void CMainFrame::OnGraphOpen()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CMainFrame::OnUpdateGraphOpen(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+}
+
+
+void CMainFrame::OnGraphSave()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CMainFrame::OnUpdateGraphSave(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+}
+
+
+void CMainFrame::OnGraphClear()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CMainFrame::OnUpdateGraphClear(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+}
+
+
+void CMainFrame::OnGraphVertexAdd()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CMainFrame::OnUpdateGraphVertexAdd(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+}
+
+
+void CMainFrame::OnGraphVertexDelete()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CMainFrame::OnUpdateGraphVertexDelete(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+}
+
+
+void CMainFrame::OnGraphVertexInfo()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CMainFrame::OnUpdateGraphVertexInfo(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+}
+
+
+void CMainFrame::OnGraphEdgeAdd()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CMainFrame::OnUpdateGraphEdgeAdd(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+}
+
+
+void CMainFrame::OnGraphEdgeDelete()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CMainFrame::OnUpdateGraphEdgeDelete(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+}
+
+
+void CMainFrame::OnGraphEdgeSetweight()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CMainFrame::OnUpdateGraphEdgeSetweight(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+}
+
+
+void CMainFrame::OnGraphEdgeInfo()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CMainFrame::OnUpdateGraphEdgeInfo(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+}

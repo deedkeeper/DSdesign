@@ -38,6 +38,27 @@ protected:
 	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 	DECLARE_MESSAGE_MAP()
 
+public:
+	afx_msg void OnGraphOpen();
+	afx_msg void OnUpdateGraphOpen(CCmdUI *pCmdUI);
+	afx_msg void OnGraphSave();
+	afx_msg void OnUpdateGraphSave(CCmdUI *pCmdUI);
+	afx_msg void OnGraphClear();
+	afx_msg void OnUpdateGraphClear(CCmdUI *pCmdUI);
+	afx_msg void OnGraphVertexAdd();
+	afx_msg void OnUpdateGraphVertexAdd(CCmdUI *pCmdUI);
+	afx_msg void OnGraphVertexDelete();
+	afx_msg void OnUpdateGraphVertexDelete(CCmdUI *pCmdUI);
+	afx_msg void OnGraphVertexInfo();
+	afx_msg void OnUpdateGraphVertexInfo(CCmdUI *pCmdUI);
+	afx_msg void OnGraphEdgeAdd();
+	afx_msg void OnUpdateGraphEdgeAdd(CCmdUI *pCmdUI);
+	afx_msg void OnGraphEdgeDelete();
+	afx_msg void OnUpdateGraphEdgeDelete(CCmdUI *pCmdUI);
+	afx_msg void OnGraphEdgeSetweight();
+	afx_msg void OnUpdateGraphEdgeSetweight(CCmdUI *pCmdUI);
+	afx_msg void OnGraphEdgeInfo();
+	afx_msg void OnUpdateGraphEdgeInfo(CCmdUI *pCmdUI);
 };
 
 
